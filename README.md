@@ -23,5 +23,13 @@ generations_without_improvement = 0  # 计数无显著改进的代数
 ```
 
 3. 确保自己有`SimHei`字体,否则matplotlib绘图时可能会显示乱码.
-4. 因为代码大部分是ai写的,我感觉可读性很强,注释就没太需要了.
 5. 代码整体就是遗传算法的实现,运行10次，每次运行都初始化种群，然后通过选择、交叉、变异生成新的种群。记录每次运行的最佳路径和最短距离。如果在一定代数内没有显著改进，则提前终止算法。(`具体参数参照第二个注意事项`)
+
+6.部分图例如下
+![image](https://github.com/user-attachments/assets/eebc99c2-628d-438c-925c-7717edbde05e)
+![image](https://github.com/user-attachments/assets/e65f2a6d-bea0-47c2-a687-63f03290f3da)
+![image](https://github.com/user-attachments/assets/abcb3720-b4d1-4767-bef8-859383fc1d14)
+![image](https://github.com/user-attachments/assets/2e823b38-bf38-45f0-bb40-aa4b50244568)
+
+
+
